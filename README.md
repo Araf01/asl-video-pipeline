@@ -58,7 +58,7 @@ Due to that dataset’s licensing policy, all_processed_poses.pkl is not include
 
 To reproduce the per‑frame JSONs yourself, you must:
 
-Obtain the ASL‑Citizen data directly from Microsoft Research under their terms and use createOpenPose.py under scripts folder.
+Obtain the ASL‑Citizen data directly from Microsoft Research under their terms and use createOpenPose.py in scripts folder.
 
 Place the resulting all_processed_poses.pkl into the data/ folder.
 
