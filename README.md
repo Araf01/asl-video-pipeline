@@ -39,13 +39,19 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
-## 🗑️ Cleanup
+⚙️ Configuration
+1. Place all_processed_poses.pkl (from Microsoft’s ASL‑Citizen dataset) into the data/ folder.
+Ensure your gloss maps live at:
+data/gloss_to_id_map.json
+data/id_to_gloss_map.json
 
-```bash
-rm -rf output/
+2. Adjust VIDEO_INPUT_PATH in scripts/app.py with your ≤ 8 min input video path
+
 
 📄 License
 This project is licensed under the MIT License.
+1. Data files
+
 
 ⚠️ Data Notice
 This project uses pose sequences derived from the ASL‑Citizen dataset (Microsoft Research).
@@ -53,11 +59,10 @@ Due to that dataset’s licensing policy, all_processed_poses.pkl is not include
 
 To reproduce the per‑frame JSONs yourself, you must:
 
-Obtain the ASL‑Citizen data directly from Microsoft Research under their terms.
+Obtain the ASL‑Citizen data directly from Microsoft Research under their terms and use createOpenPose.py under scripts folder.
 
 Place the resulting all_processed_poses.pkl into the data/ folder.
 
 Once in place, the pipeline will automatically generate the JSONs needed for avatar rendering.
 
-```bash
-rm -rf output/
+
