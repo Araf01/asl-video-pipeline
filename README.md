@@ -38,7 +38,7 @@ source .venv/bin/activate
 # 3) Upgrade pip & install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
-
+```
 ⚙️ Configuration
 1. Place all_processed_poses.pkl (from Microsoft’s ASL‑Citizen dataset) into the data/ folder.
 Ensure your gloss maps live at:
