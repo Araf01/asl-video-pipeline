@@ -39,8 +39,25 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
-
 ## 🗑️ Cleanup
+
+```bash
+rm -rf output/
+
+📄 License
+This project is licensed under the MIT License.
+
+⚠️ Data Notice
+This project uses pose sequences derived from the ASL‑Citizen dataset (Microsoft Research).
+Due to that dataset’s licensing policy, all_processed_poses.pkl is not included here.
+
+To reproduce the per‑frame JSONs yourself, you must:
+
+Obtain the ASL‑Citizen data directly from Microsoft Research under their terms.
+
+Place the resulting all_processed_poses.pkl into the data/ folder.
+
+Once in place, the pipeline will automatically generate the JSONs needed for avatar rendering.
 
 ```bash
 rm -rf output/
