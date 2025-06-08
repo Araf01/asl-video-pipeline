@@ -50,10 +50,9 @@ data/id_to_gloss_map.json
 
 📄 License
 This project is licensed under the MIT License.
-1. Data files
 
 
-⚠️ Data Notice
+⚠️ Data Notice 
 This project uses pose sequences derived from the ASL‑Citizen dataset (Microsoft Research).
 Due to that dataset’s licensing policy, all_processed_poses.pkl is not included here.
 
