@@ -24,7 +24,7 @@ A full Python pipeline that:
 
 ```bash
 # 1) Clone this repo and enter it
-git clone https://github.com/your-username/asl-video-pipeline.git
+git clone https://github.com/Araf01/asl-video-pipeline
 cd asl-video-pipeline
 
 # 2) Create & activate a Python 3.10.8 virtual environment
