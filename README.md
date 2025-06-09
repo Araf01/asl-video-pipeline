@@ -1,7 +1,7 @@
 # asl-video-pipeline
  A full Python pipeline that transcribes speech from video, converts each word into ASL gloss, and renders a signing avatar back onto the original video using pose‑based animations.
  
- ![Python Version](httpshttps://img.shields.io/badge/python-3.10%2B-blue.svg)
+![Python Version](httpshttps://img.shields.io/badge/python-3.10%2B-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 A full Python pipeline that:
