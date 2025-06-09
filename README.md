@@ -1,7 +1,8 @@
 # asl-video-pipeline
  A full Python pipeline that transcribes speech from video, converts each word into ASL gloss, and renders a signing avatar back onto the original video using pose‑based animations.
-
- # ASL Video Pipeline
+ 
+ ![Python Version](httpshttps://img.shields.io/badge/python-3.10%2B-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 A full Python pipeline that:
 
@@ -54,11 +55,12 @@ This project is licensed under the MIT License.
 
 ⚠️ Data Notice 
 This project uses pose sequences derived from the ASL‑Citizen dataset (Microsoft Research).
-Due to that dataset’s licensing policy, all_processed_poses.pkl is not included here.
+Due to that dataset’s licensing policy, all_processed_poses.pkl in this repository.
 
-To reproduce the per‑frame JSONs yourself, you must:
+To generate the required file:
 
-Obtain the ASL‑Citizen data directly from Microsoft Research under their terms and use createOpenPose.py in scripts folder and train.py in src.
+Obtain the ASL-Citizen data directly from Microsoft Research.
+Follow the instructions in the dataset's documentation and use the provided helper scripts (createOpenPose.py, train.py) to generate the final all_processed_poses.pkl file.
 
 Place the resulting all_processed_poses.pkl into the data/ folder.
 
