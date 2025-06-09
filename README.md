@@ -29,7 +29,10 @@ git clone https://github.com/Araf01/asl-video-pipeline
 cd asl-video-pipeline
 
 # 2) Create & activate a Python 3.10.8 virtual environment
+# macOS/Linux:
 python3.10 -m venv .venv
+#Windows:
+py -3.10 -m venv .venv
 
 # macOS/Linux:
 source .venv/bin/activate
